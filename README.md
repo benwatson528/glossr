@@ -1,8 +1,12 @@
-# Search/Filter in Svelte
+# Data Glossary
 
-## Get Started
-You can spin up this environment in a few seconds using StackBlitz
+A single-page glossary with real-time search.
 
-[Starting Code (Stackblitz)](https://stackblitz.com/github/huntabyte/svelte-search-filter/tree/starter)
+Forked from (and based heavily on) https://github.com/huntabyte/svelte-search-filter.
 
-[Final Code (Stackblitz)](https://stackblitz.com/github/huntabyte/svelte-search-filter)
+# To Run
+
+```
+npm install
+npm run dev
+```

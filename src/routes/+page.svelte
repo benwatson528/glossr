@@ -28,7 +28,7 @@
 </script>
 
 <div class="container">
-	<h1>Search/Filter</h1>
+	<h1>Glossary</h1>
 	<input type="search" placeholder="Search..." bind:value={$searchStore.search} />
 </div>
 <div class="product-grid">
@@ -36,8 +36,7 @@
 		<div class="product">
 			<h2>{product.title}</h2>
 			<p>{product.description}</p>
-			<p class="badge">{product.category}</p>
-			<p>{product.brand}</p>
+			<p class="tag">{product.category}</p>
 		</div>
 	{/each}
 </div>
